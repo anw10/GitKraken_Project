@@ -1,11 +1,11 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+# exclude everything jpg
 
-# Other files and folders
-.settings/
+*.jpg
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# exclude ext folder
+
+/ext/*
+
+# certain file type exclude
+
+/images/*.jpg
